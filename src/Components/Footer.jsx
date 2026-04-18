@@ -50,21 +50,23 @@ const Footer = () => {
             <a href="#">404</a>
           </div>
 
-          <div>
-            <h4>Contact</h4>
-            <p>XYZ ABC St., Country, 78910</p>
-            <p>+123 456789</p>
-            <p>hello@figaro.com</p>
-          </div>
+         <div>
+          <h4>Contact</h4>
+          <p>Let’s build something amazing together.</p>
+          <p><a href="mailto:honeycodes24@gmail.com">honeycodes24@gmail.com</a></p>
+          <p><a href="https://github.com/HoneyCode24" target="_blank">GitHub</a></p>
+        </div>
         </div>
 
       </div>
 
       {/* BOTTOM BAR */}
       <div className="footer-bottom">
-        <p>© Figaro. All Rights Reserved.</p>
+        <p>© 2026 Harry. All rights reserved.
+  Designed & Developed by Harry.</p>
         <p>
-          Built by <span>Yves Adrales</span> &nbsp; | &nbsp; Powered by <span>Webflow</span>
+        
+Need a website like this? Let’s connect.
         </p>
       </div>
 
