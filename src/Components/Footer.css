@@ -1,0 +1,189 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.footer {
+  background: #111;
+  color: #ccc;
+  padding: 60px 10% 20px;
+  font-family: sans-serif;
+}
+
+/* TOP SECTION */
+.footer-top {
+  display: flex;
+  justify-content: space-between;
+  gap: 60px;
+  flex-wrap: wrap;
+}
+
+/* BRAND */
+.footer-brand {
+  max-width: 300px;
+}
+
+.logo {
+  font-family: "Playfair Display", serif;
+  font-size: 32px;
+  color: white;
+  margin-bottom: 15px;
+}
+
+.footer-brand p {
+  font-size: 14px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+/* SOCIAL ICONS */
+.socials {
+  display: flex;
+  gap: 15px;
+}
+
+.socials i {
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.socials i:hover {
+  color: white;
+}
+
+/* LINKS GRID */
+.footer-links {
+  display: flex;
+  gap: 50px;
+  flex-wrap: wrap;
+}
+
+.footer-links h4 {
+  color: white;
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+.footer-links a,
+.footer-links p {
+  display: block;
+  font-size: 13px;
+  margin-bottom: 8px;
+  color: #aaa;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.footer-links a:hover {
+  color: white;
+}
+
+/* BOTTOM */
+.footer-bottom {
+  border-top: 1px solid rgba(255,255,255,0.1);
+  margin-top: 40px;
+  padding-top: 20px;
+
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  font-size: 13px;
+  color: #888;
+}
+
+.footer-bottom span {
+  color: white;
+  cursor: pointer;
+}
+@media (max-width: 768px) {
+  .footer-top {
+    flex-direction: column;
+  }
+
+  .footer-links {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .footer-bottom {
+    flex-direction: column;
+    gap: 10px;
+  }
+}
+@media (max-width: 1024px) {
+
+  .footer {
+    padding: 50px 8% 20px;
+  }
+
+  .footer-top {
+    gap: 40px;
+  }
+
+  .footer-links {
+    gap: 30px;
+  }
+
+  .footer-brand {
+    max-width: 100%;
+  }
+}
+@media (max-width: 768px) {
+
+  .footer {
+    padding: 40px 6% 20px;
+  }
+
+  .footer-top {
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .footer-links {
+    flex-direction: column;
+    gap: 25px;
+  }
+
+  .footer-links > div {
+    width: 100%;
+  }
+
+  .footer-bottom {
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+  }
+}
+@media (max-width: 480px) {
+
+  .footer {
+    padding: 30px 5% 15px;
+  }
+
+  .logo {
+    font-size: 26px;
+  }
+
+  .footer-brand p {
+    font-size: 13px;
+  }
+
+  .footer-links h4 {
+    font-size: 13px;
+  }
+
+  .footer-links a,
+  .footer-links p {
+    font-size: 12px;
+  }
+
+  .socials {
+    gap: 10px;
+  }
+
+  .footer-bottom {
+    font-size: 12px;
+  }
+}

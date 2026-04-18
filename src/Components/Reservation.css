@@ -1,0 +1,220 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.reservation {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  background: black;
+  color: white;
+  padding: 80px 10%;
+  gap: 60px;
+}
+
+/* LEFT SIDE */
+.reservation-left {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.tag {
+  color: #e9b86a;
+  letter-spacing: 3px;
+  font-size: 12px;
+}
+
+.title {
+  font-size: 60px;
+  font-family: "Playfair Display", serif;
+  line-height: 1.1;
+}
+
+.desc {
+  color: rgba(255, 255, 255, 0.7);
+  max-width: 400px;
+  line-height: 1.5;
+}
+
+.info {
+  list-style: none;
+  margin-top: 20px;
+}
+
+.info li {
+  margin-bottom: 15px;
+}
+
+.info strong {
+    color: #e9b86a;
+  display: block;
+}
+
+.info span {
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+/* RIGHT SIDE */
+.reservation-right {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.form {
+  width: 100%;
+  max-width: 400px;
+  background: #111;
+  padding: 30px;
+  border-radius: 10px;
+  border: 1px solid rgba(255,255,255,0.1);
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+/* INPUTS */
+.form input,
+.form select,
+.form textarea {
+  width: 100%;
+  padding: 12px;
+  background: transparent;
+  border: 1px solid rgba(255,255,255,0.2);
+  color: white;
+  border-radius: 6px;
+  outline: none;
+}
+.form input:hover,
+.form select:hover,
+.form textarea:hover{
+    border: 1px solid #e9b86a;
+}
+
+.form textarea {
+  height: 80px;
+  resize: none;
+}
+
+/* ROW (DATE + TIME) */
+.row {
+  display: flex;
+  gap: 10px;
+}
+
+.row input,
+.row select {
+  flex: 1;
+}
+
+/* BUTTON */
+.form button {
+  margin-top: 10px;
+  padding: 14px;
+  background: #e9b86a;
+  border: none;
+  color: black;
+  font-weight: bold;
+  letter-spacing: 2px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.form button:hover {
+  background: #ff9d00;
+}
+
+@media (max-width: 1024px) {
+
+  .reservation {
+    padding: 60px 8%;
+    gap: 40px;
+  }
+
+  .title {
+    font-size: 48px;
+  }
+
+  .desc {
+    max-width: 100%;
+  }
+
+  .form {
+    max-width: 350px;
+  }
+}
+@media (max-width: 768px) {
+
+  .reservation {
+    flex-direction: column; /* 🔥 stack layout */
+    padding: 60px 6%;
+    gap: 40px;
+  }
+
+  .reservation-left,
+  .reservation-right {
+    width: 100%;
+  }
+
+  .title {
+    font-size: 36px;
+  }
+
+  .tag {
+    font-size: 11px;
+    letter-spacing: 2px;
+  }
+
+  .desc {
+    font-size: 14px;
+  }
+
+  .form {
+    max-width: 100%;
+    padding: 20px;
+  }
+
+  .row {
+    flex-direction: column; /* 🔥 stack date + time */
+  }
+}
+@media (max-width: 480px) {
+
+  .reservation {
+    padding: 40px 5%;
+  }
+
+  .title {
+    font-size: 28px;
+    line-height: 1.2;
+  }
+
+  .desc {
+    font-size: 13px;
+  }
+
+  .info span {
+    font-size: 12px;
+  }
+
+  .form {
+    padding: 18px;
+  }
+
+  .form input,
+  .form select,
+  .form textarea {
+    padding: 10px;
+    font-size: 13px;
+  }
+
+  .form button {
+    padding: 12px;
+    font-size: 12px;
+  }
+}
