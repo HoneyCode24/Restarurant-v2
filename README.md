@@ -58,7 +58,7 @@ restaurant-website/
 
 ## 📸 Screenshots
 
-*Add screenshots of your website here to showcase UI (highly recommended)*
+(assets/screenshot.png)
 
 ---
 
