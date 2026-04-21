@@ -58,7 +58,7 @@ restaurant-website/
 
 ## 📸 Screenshots
 
-![Screenshots](assets/screenshot.jpeg)
+![Screenshot](assets/screenshot.jpeg)
 
 ---
 
