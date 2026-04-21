@@ -7,7 +7,7 @@ This project focuses on **smooth animations, elegant UI design, and an immersive
 
 ## 🌐 Live Demo
 
-👉 https://restarurant-v2.vercel.app/
+👉 [Click Here](https://restarurant-v2.vercel.app/)
 
 ---
 
@@ -73,9 +73,9 @@ restaurant-website/
 
 ## 📫 Contact
 
-* 📧 Email: [Email-me](mailto:honeycodes24@gmail.com)
-* 🌐 Portfolio: [My portfolio](https://portfolio-p2uv9hypo-honeys-projects-8ac11084.vercel.app/)
-* 💼 LinkedIn: [Linkedin](https://www.linkedin.com/in/honey-gupta-5b686b366/)
+* 📧 Email: [Click Here](mailto:honeycodes24@gmail.com)
+* 🌐 Portfolio: [Click Here](https://portfolio-p2uv9hypo-honeys-projects-8ac11084.vercel.app/)
+* 💼 LinkedIn: [Click Here](https://www.linkedin.com/in/honey-gupta-5b686b366/)
 
 ---
 
